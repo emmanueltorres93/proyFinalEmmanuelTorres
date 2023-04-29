@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Satisfy&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+.containerImg {
+    background-image: url(../img/background/10929-marmol-blanco.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.botonera{
+    display: flex;
+    flex-direction: column;
+}
+    .botonera span{
+        flex-direction: column;
+        justify-content: start;
+    }
+        .botonera img{
+            width: 210px;
+            justify-content: center;
+        }
+            .botonera ul{
+                font-family: 'Satisfy', sans-serif;
+                font-size: 2.7rem;
+                font-weight: 400;
+                padding-top: 20px;
+                width: 100%;
+                justify-content: space-evenly;
+                
+            }
+header{
+    justify-content: center;
+}
+.contenedor{
+    margin: 2rem auto;
+    padding: 20px;
+    height: auto;
+    font-size: 1.8rem;
+    text-align: center;
+}
+    main svg{
+        width: 40px;
+        fill: rgb(106, 106, 104);
+    }
+    main iframe{
+        width: 50%;
+        height: 100%;
+    }
+    main form{
+        padding: 5px;
+    }
+.contacto{
+    padding: 40px;
+    height: auto;
+    font-size: 1.8rem;
+}
+article{
+    padding-top: 20px;
+}
+    .card{
+        width: 90%;
+    }
+        .card-body{
+            text-align: center;
+        }
+        .card img{
+            align-content: center;
+            width:70%;
+            margin: auto;
+        }
+h1,
+h2{
+    color: #4f4b4a;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin: 25px;
+    text-align: center;
+}
+footer{
+    padding-top: 20px;
+}
+    footer ul li{
+        list-style: none;
+    }
+    footer svg{
+        width: 45px;
+        fill: #000807;
+        margin: 10px;
+    }
+@media (width <480){
+    main{
+        overflow-x: hidden;
+        justify-content: center;
+        margin: 10px;
+    }
+        main img{
+            width: 70%;
+            object-fit: fill;
+        }
+        main iframe{
+            width: 100%;
+            height: 100%;
+        }
+        main form{
+            width: 90%;
+            padding: 20px;
+        }
+    .imagenInicio{
+        width: 250px;
+    }
+}
+@media (width <321){
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px;
+    }
+        main form{
+            height: 70%;
+            padding: 20px;
+        }
+}
