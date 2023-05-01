@@ -88,15 +88,15 @@ footer{
         fill: #000807;
         margin: 10px;
     }
-@media (width <480){
+@media (width <640){
     main{
+        width: auto;
         overflow-x: hidden;
         justify-content: center;
         margin: 10px;
     }
         main img{
-            width: 70%;
-            object-fit: fill;
+            width: 100%;
         }
         main iframe{
             width: 100%;
@@ -106,17 +106,18 @@ footer{
             width: 90%;
             padding: 20px;
         }
-    .imagenInicio{
-        width: 250px;
-    }
 }
-@media (width <321){
+@media (width <480){
     main{
+        width: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin: 10px;
     }
+        main img{
+            width: auto;
+        }
         main form{
             height: 70%;
             padding: 20px;
