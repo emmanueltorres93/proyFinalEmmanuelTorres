@@ -1,51 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Satisfy&display=swap");
-html {
-  font-size: 62.5%;
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(53, 53, 52);
+  font-weight: 400;
+  font-size: 2.7em;
 }
 
-.containerImg {
-  background-image: url(../img/background/10929-marmol-blanco.png);
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-header {
-  justify-content: center;
-}
-
-.contenedor {
-  margin: 2rem auto;
-  padding: 20px;
-  height: auto;
-  font-size: 1.8em;
-  text-align: center;
-}
-
-.contacto {
-  padding: 30px;
-  height: auto;
-  font-size: 1.8em;
-}
-
-h1,
 h2 {
+  font-family: "Roboto", sans-serif;
   color: rgb(53, 53, 52);
   font-weight: 400;
   font-size: 2.5em;
-  margin: 25px;
-  text-align: center;
 }
 
-main svg {
-  width: 40px;
-  fill: rgb(106, 106, 104);
-}
-main iframe {
-  width: 50%;
-  height: 100%;
-}
-main form {
-  padding: 10px;
+p {
+  font-family: "Roboto", sans-serif;
+  color: rgb(53, 53, 52);
+  font-weight: 400;
+  font-size: 1.8em;
 }
 
 .botonera {
@@ -79,6 +51,67 @@ footer svg {
   width: 45px;
   fill: #000807;
   margin: 10px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.containerImg {
+  background-image: url(../img/background/10929-marmol-blanco.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  justify-content: center;
+}
+
+.contenedor {
+  margin: 2rem auto;
+  padding: 20px;
+  height: auto;
+  text-align: center;
+}
+
+.contacto {
+  padding: 30px;
+  height: auto;
+}
+
+main svg {
+  text-align: center;
+  width: 40px;
+  fill: rgb(106, 106, 104);
+}
+main iframe {
+  width: 50%;
+  height: 100%;
+}
+main form {
+  padding: 10px;
+}
+
+article {
+  padding-top: 20px;
+  margin: auto;
+  display: flex;
+  align-content: center;
+}
+
+.card {
+  margin: auto;
+  width: 90%;
+}
+.card img {
+  align-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+.card-body {
+  text-align: center;
+  font-size: 0.8em;
 }
 
 @media (width < 640) {

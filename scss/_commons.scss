@@ -13,24 +13,17 @@ header{
     margin: 2rem auto;
     padding: 20px;
     height: auto;
-    font-size: $textMd;
     text-align: center;
 }
 .contacto{
     padding: 30px;
     height: auto;
-    font-size: $textMd;
+    // font-size: $textSm;
 }
-h1,
-h2{
-    color: rgb(53, 53, 52);
-    font-weight: 400;
-    font-size: $textLg;
-    margin: 25px;
-    text-align: center;
-}
+
 main{
     svg{
+        text-align: center;
         width: 40px;
         fill: $secondaryColor;
     }
