@@ -1,0 +1,45 @@
+html{
+    font-size: 62.5%;
+}
+.containerImg {
+    background-image: url(../img/background/10929-marmol-blanco.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    justify-content: center;
+}
+.contenedor{
+    margin: 2rem auto;
+    padding: 20px;
+    height: auto;
+    font-size: $textMd;
+    text-align: center;
+}
+.contacto{
+    padding: 30px;
+    height: auto;
+    font-size: $textMd;
+}
+h1,
+h2{
+    color: rgb(53, 53, 52);
+    font-weight: 400;
+    font-size: $textLg;
+    margin: 25px;
+    text-align: center;
+}
+main{
+    svg{
+        width: 40px;
+        fill: $secondaryColor;
+    }
+    iframe{
+        width: 50%;
+        height: 100%;
+    }
+    form{
+        padding: 10px;
+    }
+}
+

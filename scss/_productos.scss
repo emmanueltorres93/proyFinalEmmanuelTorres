@@ -1,0 +1,19 @@
+article{
+    padding-top: 20px;
+    margin: auto;
+    display: flex;
+    align-content: center ;
+}
+.card{
+    margin: auto;
+    width: 90%;
+    img{
+        align-content: center;
+        width:70%;
+        margin: auto;
+    }
+}
+.card-body{
+    text-align: center;
+    font-size: $textSm;
+}

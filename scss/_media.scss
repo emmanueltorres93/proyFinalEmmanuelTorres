@@ -1,0 +1,31 @@
+@media (width <640){
+    main{
+        width: auto;
+        overflow-x: hidden;
+        justify-content: center;
+        margin: 10px;
+    }
+        main img{
+            width: 100%;
+        }
+}
+@media (width <321){
+    main{
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 5px;
+    }
+        main img{
+            width: auto;
+        }
+        main form{
+            width: 90%;
+            height: 90%;
+            /* padding: 5px; */
+        }
+        main ul p{
+            width: 100%;
+        }
+}

@@ -1,0 +1,33 @@
+.botonera{
+    display: flex;
+    flex-direction: column;
+    span{
+        flex-direction: column;
+        justify-content: start;
+    }
+    img{
+        width: 210px;
+            justify-content: center;
+    }
+    ul{
+        font-family: $secondaryFont;
+                font-size: $textXl;
+                font-weight: $fontBold;
+                padding-top: 20px;
+                width: 100%;
+                justify-content: space-evenly;
+    }
+}
+footer{
+    padding-top: 20px;
+    ul{
+        li{
+            list-style: none;
+        }
+    }
+    svg{
+        width: 45px;
+        fill:$keyColor;
+        margin: 10px;
+    }
+}
