@@ -63,6 +63,11 @@ html {
   background-attachment: fixed;
 }
 
+.scale:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
 header {
   justify-content: center;
 }
