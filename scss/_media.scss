@@ -9,6 +9,11 @@
             width: 100%;
         }
 }
+@media screen and (width <480px){
+    .imgInicio img{      
+    width: 90%;
+}
+}
 @media (width <321){
     main{
         width: auto;

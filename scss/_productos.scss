@@ -3,17 +3,47 @@ article{
     margin: auto;
     display: flex;
     align-content: center ;
-}
-.card{
-    margin: auto;
-    width: 90%;
-    img{
-        align-content: center;
-        width:70%;
+    .card{
+        padding-top:30px;
         margin: auto;
+        width: 90%;
+        img{
+            align-content: center;
+            width:70%;
+            margin: auto;
+        }
+        .cardText{
+                font-family: $secondaryFont !important;
+                font-size: $textSm;
+                font-weight: $fontBold;
+                text-align: center;
+        }
     }
 }
-.card-body{
-    text-align: center;
-    font-size: .8em;
-}
+
+// .card{
+//     margin: auto;
+
+//     width: 90%;
+//     img{
+//         align-content: center;
+//         width:70%;
+//         margin: auto;
+//     }
+//     .card-body{
+//         p{
+//             text-align: center;
+//             font-family: $secondaryFont !important;
+//             font-size: .8em;
+//         }
+//     }
+// }
+// .card-body{
+    
+    
+//     p{
+//         text-align: center;
+//         font-family: $secondaryFont;
+//         font-size: .8em;
+//     }
+// }
