@@ -1,43 +1,51 @@
-Proyecto Final de Emmanuel Torres
+PROYECTO FINAL DE EMMANUEL TORRES
+
 Hola Lau o Vero segun quien corrija, desde ya me disculpo por mi README tan basico
 
 INTRODUCCION:
 
 Proyecto realizado para la presentacion final del curso de Desarrollo Web de Coderhouse.
 Este proyecto es una tienda online de Fabricación y Restauración de Iluminación Artesanal.
-La cual consta de 5 paginas las cuales fueron realizadas en lenguaje HTML Y CSS y con frameworks como Bootstrap, sass y node_js
+La cual consta de 5 paginas, las cuales fueron realizadas en lenguaje HTML Y CSS
 
+HERRAMIENTAS UTILIZADAS:
 
+• Visual studio code como editor de codigo fuente
 
+• Wireframe.cc para realizar los sketch de cada pantalla del proyecto tanto para mobile como descktop
 
-ADJUNTO
+• Node.js para la implementacion de SASS
 
-WIFRAMES
+• GitHub para la creación y almecenamiento del repositorio
 
-Descktop inicio: https://wireframe.cc/jenRom
+• Bootstrap para el diseño responsive
 
-Descktop productos: https://wireframe.cc/8IPwPM
+WIREFRAMES:
 
-Descktop envios: https://wireframe.cc/pXs83H
+• Descktop inicio: https://wireframe.cc/jenRom
 
-Descktop contactos: https://wireframe.cc/tjUxqV
+• Descktop productos: https://wireframe.cc/8IPwPM
 
-Descktop nosotros: https://wireframe.cc/iQvM6m
+• Descktop envios: https://wireframe.cc/pXs83H
 
-Mobile inicio: https://wireframe.cc/tAELfI
+• Descktop contactos: https://wireframe.cc/tjUxqV
 
-Mobile productos:https://wireframe.cc/amfjaD
+• Descktop nosotros: https://wireframe.cc/iQvM6m
 
-Mobile envios: https://wireframe.cc/0RwUCh
+• Mobile inicio: https://wireframe.cc/tAELfI
 
-Mobile contactos: https://wireframe.cc/Bf4zMb
+• Mobile productos:https://wireframe.cc/amfjaD
 
-Mobile nosotros: https://wireframe.cc/UHaQ3r
+• Mobile envios: https://wireframe.cc/0RwUCh
+
+• Mobile contactos: https://wireframe.cc/Bf4zMb
+
+• Mobile nosotros: https://wireframe.cc/UHaQ3r
 
 LINKS:
 
-Link GitHub: https://github.com/emmanueltorres93/proyFinalEmmanuelTorres.git
+• Link GitHub: https://github.com/emmanueltorres93/proyFinalEmmanuelTorres.git
 
-Link deployment de GitHub: https://emmanueltorres93.github.io/proyFinalEmmanuelTorres/
+• Link deployment de GitHub: https://emmanueltorres93.github.io/proyFinalEmmanuelTorres/
 
-Dominio Netlify: https://torresdebuenosaires-iluminacion.netlify.app/
+• Dominio Netlify: https://torresdebuenosaires-iluminacion.netlify.app/
