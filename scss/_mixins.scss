@@ -12,5 +12,5 @@ h2{
     @include textos($mainFont,$mainColor,$fontBold,$textLg)
 }
 p{
-    @include textos($mainFont,$mainColor,$fontBold,$textMd)
+    @include textos($mainFont,$mainColor,$fontLight,$textMd)
 }

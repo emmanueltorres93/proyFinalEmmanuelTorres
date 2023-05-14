@@ -16,7 +16,7 @@ h2 {
 p {
   font-family: "Roboto", sans-serif;
   color: rgb(53, 53, 52);
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.8em;
 }
 
@@ -57,6 +57,13 @@ html {
   font-size: 62.5%;
 }
 
+body p {
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0%;
+}
+
 .containerImg {
   background-image: url(../img/background/10929-marmol-blanco.png);
   background-size: cover;
@@ -74,7 +81,7 @@ header {
 
 .contenedor {
   margin: 2rem auto;
-  padding: 20px;
+  padding: 30px;
   height: auto;
   text-align: center;
 }
@@ -84,10 +91,20 @@ header {
   height: auto;
 }
 
+.error {
+  width: 100%;
+}
+
+.errorVolver a {
+  text-align: center;
+  font-size: 2.5em;
+}
+
 main svg {
   text-align: center;
   width: 40px;
   fill: rgb(106, 106, 104);
+  margin-top: 2%;
 }
 main iframe {
   width: 50%;
@@ -103,34 +120,47 @@ article {
   display: flex;
   align-content: center;
 }
-
-.card {
+article .card {
+  padding-top: 30px;
   margin: auto;
   width: 90%;
 }
-.card img {
+article .card img {
   align-content: center;
   width: 70%;
   margin: auto;
 }
 
-.card-body {
-  text-align: center;
-  font-size: 0.8em;
-}
-
-@media (width < 640) {
-  main {
-    width: auto;
-    overflow-x: hidden;
-    justify-content: center;
-    margin: 10px;
-  }
-  main img {
+@media (min-width: 482px) {
+  .imgInicio1 {
     width: 100%;
+    display: block;
+    visibility: visible;
+  }
+  .imgInicio2 {
+    width: 100%;
+    position: relative;
+    display: none;
+    visibility: hidden;
   }
 }
-@media (width < 321) {
+@media (max-width: 481px) {
+  .imgInicio1 {
+    width: 100%;
+    position: relative;
+    display: none;
+    visibility: hidden;
+  }
+  .imgInicio2 {
+    width: 100%;
+    display: block;
+    visibility: visible;
+  }
+  .error {
+    width: 360px;
+  }
+}
+@media (max-width: 321px) {
   main {
     width: auto;
     display: flex;
@@ -141,10 +171,14 @@ article {
   main img {
     width: auto;
   }
+  .imgInicio2 {
+    width: 100%;
+    display: block;
+    visibility: visible;
+  }
   main form {
     width: 90%;
     height: 90%;
-    /* padding: 5px; */
   }
   main ul p {
     width: 100%;
