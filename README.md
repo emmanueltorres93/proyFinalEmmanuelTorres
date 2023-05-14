@@ -2,16 +2,26 @@
 ADJUNTO
 
 WIFRAMES
-descktop inicio: https://wireframe.cc/jenRom
-descktop productos: https://wireframe.cc/8IPwPM
-descktop envios: https://wireframe.cc/pXs83H
-descktop contactos: https://wireframe.cc/tjUxqV
-descktop nosotros: https://wireframe.cc/iQvM6m
-mobile inicio: https://wireframe.cc/tAELfI
-mobile productos:https://wireframe.cc/amfjaD
-mobile envios: https://wireframe.cc/0RwUCh
-mobile contactos: https://wireframe.cc/Bf4zMb
-mobile nosotros: https://wireframe.cc/UHaQ3r
+
+Descktop inicio: https://wireframe.cc/jenRom
+
+Descktop productos: https://wireframe.cc/8IPwPM
+
+Descktop envios: https://wireframe.cc/pXs83H
+
+Descktop contactos: https://wireframe.cc/tjUxqV
+
+Descktop nosotros: https://wireframe.cc/iQvM6m
+
+Mobile inicio: https://wireframe.cc/tAELfI
+
+Mobile productos:https://wireframe.cc/amfjaD
+
+Mobile envios: https://wireframe.cc/0RwUCh
+
+Mobile contactos: https://wireframe.cc/Bf4zMb
+
+Mobile nosotros: https://wireframe.cc/UHaQ3r
 
 Link GitHub: https://github.com/emmanueltorres93/proyFinalEmmanuelTorres.git
 
