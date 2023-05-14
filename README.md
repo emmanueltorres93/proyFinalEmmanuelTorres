@@ -1,4 +1,15 @@
-# proyectoFinalEmmanuelTorres
+Proyecto Final de Emmanuel Torres
+Hola Lau o Vero segun quien corrija, desde ya me disculpo por mi README tan basico
+
+INTRODUCCION:
+
+Proyecto realizado para la presentacion final del curso de Desarrollo Web de Coderhouse.
+Este proyecto es una tienda online de Fabricación y Restauración de Iluminación Artesanal.
+La cual consta de 5 paginas las cuales fueron realizadas en lenguaje HTML Y CSS y con frameworks como Bootstrap, sass y node_js
+
+
+
+
 ADJUNTO
 
 WIFRAMES
@@ -22,6 +33,8 @@ Mobile envios: https://wireframe.cc/0RwUCh
 Mobile contactos: https://wireframe.cc/Bf4zMb
 
 Mobile nosotros: https://wireframe.cc/UHaQ3r
+
+LINKS:
 
 Link GitHub: https://github.com/emmanueltorres93/proyFinalEmmanuelTorres.git
 
