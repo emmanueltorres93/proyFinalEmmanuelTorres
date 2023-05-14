@@ -1,7 +1,5 @@
 PROYECTO FINAL DE EMMANUEL TORRES
 
-Hola Lau o Vero segun quien corrija, desde ya me disculpo por mi README tan basico
-
 INTRODUCCION:
 
 Proyecto realizado para la presentacion final del curso de Desarrollo Web de Coderhouse.
